@@ -54,7 +54,7 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars)
   return chocolateBars;
 }
 
-// Esta función elimina
+// Esta función devuelve la matriz sin el último elemento sin mutar la matriz original.
 function removeElementFromEndOfArray(chocolateBars)
 {
   chocolates = chocolateBars.slice(0, chocolateBars.length -1);
