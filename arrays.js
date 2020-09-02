@@ -47,8 +47,17 @@ function removeElementFromBeginningOfArray(chocolateBars)
  return chocolate;
 }
 
+//Esta función elimina el último elemento de la matriz con el método "pop".
 function destructivelyRemoveElementFromEndOfArray(chocolateBars)
 {
   chocolateBars.pop();
   return chocolateBars;
 }
+
+function removeElementFromEndOfArray(chocolateBars)
+{
+  chocolateBars.slice(0,chocolateBars.length -1);
+  return chocolateBars
+}
+
+
